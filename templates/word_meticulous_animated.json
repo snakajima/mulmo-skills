@@ -1,0 +1,198 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "title": "【今日の単語】Meticulous",
+  "lang": "en",
+  "canvasSize": {
+    "width": 1024,
+    "height": 1536
+  },
+  "speechParams": {
+    "speakers": {
+      "Announcer": {
+        "provider": "google",
+        "model": "gemini-2.5-flash-tts",
+        "voiceId": "Leda"
+      }
+    }
+  },
+  "audioParams": {
+    "bgm": {
+      "kind": "url",
+      "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/bgms/story004.mp3"
+    },
+    "bgmVolume": 0.1
+  },
+  "imageParams": {
+    "provider": "google",
+    "model": "gemini-2.5-flash-image",
+    "images": {
+      "sample_1": {
+        "type": "imagePrompt",
+        "prompt": "A focused young professional woman sitting at a clean, organized desk, carefully reviewing documents with a fine-tipped pen in hand. She wears glasses and smart business casual attire. Every item on the desk — papers, sticky notes, pens — is neatly arranged. Warm office lighting with soft bokeh background. Photorealistic style, shallow depth of field, warm tones, cinematic composition."
+      },
+      "sample_2": {
+        "type": "imagePrompt",
+        "prompt": "A meticulous middle-aged man sitting at a tidy desk, carefully writing entries into a large open ledger book with a fountain pen. Beside him are neatly labeled folders, color-coded tabs, and a perfectly organized filing system. His expression is calm and focused. Soft natural light from a window illuminates the scene. Photorealistic style, shallow depth of field, cool-neutral tones, cinematic composition."
+      },
+      "sample_3": {
+        "type": "imagePrompt",
+        "prompt": "A professional chef in a pristine white uniform leaning over a restaurant plate, using tweezers to place a delicate garnish with extreme precision. The dish is an artistic arrangement of colorful ingredients on a minimalist white plate. The kitchen background is softly blurred with warm ambient lighting. Photorealistic style, shallow depth of field, rich warm tones, cinematic close-up composition."
+      }
+    }
+  },
+  "beats": [
+    {
+      "text": "見るだけで新しい単語が身につく動画です。",
+      "speaker": "Announcer",
+      "speechOptions": {
+        "speed": 2.0
+      },
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='relative w-full h-full flex flex-col items-center justify-center overflow-hidden' style='background:linear-gradient(160deg,#0f0c29,#302b63,#24243e)'>",
+          "  <div class='absolute rounded-full' style='width:900px;height:900px;background:radial-gradient(circle,rgba(139,92,246,0.3) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%)'></div>",
+          "  <div class='relative z-10 text-purple-400 text-2xl tracking-widest uppercase mb-6' style='letter-spacing:0.3em'>今日の単語</div>",
+          "  <div class='relative z-10 text-white font-black text-center' style='font-size:148px;line-height:1;text-shadow:0 0 80px rgba(167,139,250,0.7),0 4px 32px rgba(0,0,0,0.5)'>Meticulous</div>",
+          "  <div class='relative z-10 mt-8 mb-14 rounded-full' style='width:320px;height:3px;background:linear-gradient(90deg,transparent,#a78bfa,#fde047,#a78bfa,transparent)'></div>",
+          "  <div class='relative z-10 font-bold text-center leading-snug px-8' style='color:#fde047;font-size:4.2rem;text-shadow:0 2px 20px rgba(0,0,0,0.6)'>見るだけで<br>新しい英単語が<br>身につく動画</div>",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "text": "Meticulous",
+      "duration": 5.0,
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
+          "  <div class='text-white font-bold text-center mb-6' style='font-size:88px;line-height:1.1'>Meticulous</div>",
+          "  <div id='badge' class='text-white text-2xl px-8 py-2 rounded-full mb-14' style='background:#7c3aed;opacity:0;transform:scale(0.7)'>adjective</div>",
+          "  <div id='def' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
+          "    Showing great attention to detail;<br>very careful and precise",
+          "  </div>",
+          "</div>"
+        ],
+        "script": [
+          "const animation = new MulmoAnimation();",
+          "animation.animate('#badge', { opacity: [0, 1], scale: [0.7, 1] }, { start: 0.1, end: 0.4, easing: 'easeOut' });",
+          "animation.animate('#def', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.4, end: 0.75, easing: 'easeOut' });"
+        ],
+        "animation": true
+      }
+    },
+    {
+      "text": "She is meticulous about her work.\nHe keeps meticulous records.\nThe chef is meticulous in presentation.",
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
+          "  <div id='s1' class='text-white text-5xl mb-10 leading-snug' style='opacity:0;transform:translateX(-48px)'>",
+          "    She is <span style='color:#fde047;font-weight:700'>meticulous</span> about her work.",
+          "  </div>",
+          "  <div id='s2' class='text-white text-5xl mb-10 leading-snug' style='opacity:0;transform:translateX(-48px)'>",
+          "    He keeps <span style='color:#fde047;font-weight:700'>meticulous</span> records.",
+          "  </div>",
+          "  <div id='s3' class='text-white text-5xl leading-snug' style='opacity:0;transform:translateX(-48px)'>",
+          "    The chef is <span style='color:#fde047;font-weight:700'>meticulous</span> in presentation.",
+          "  </div>",
+          "</div>"
+        ],
+        "script": [
+          "const animation = new MulmoAnimation();",
+          "animation.animate('#s1', { opacity: [0, 1], translateX: [-48, 0] }, { start: 0.18, end: 0.42, easing: 'easeOut' });",
+          "animation.animate('#s2', { opacity: [0, 1], translateX: [-48, 0] }, { start: 0.4, end: 0.64, easing: 'easeOut' });",
+          "animation.animate('#s3', { opacity: [0, 1], translateX: [-48, 0] }, { start: 0.62, end: 0.86, easing: 'easeOut' });"
+        ],
+        "animation": true
+      }
+    },
+    {
+      "text": "She is meticulous about her work.",
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='relative w-full h-full overflow-hidden'>",
+          "  <img src='image:sample_1' class='absolute inset-0 w-full h-full object-cover'>",
+          "  <div class='absolute inset-0' style='background:linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0) 60%)'></div>",
+          "  <div class='absolute inset-0 flex flex-col items-center justify-end pb-20 px-16'>",
+          "    <div id='en' class='text-white text-5xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
+          "      She is <span style='color:#fde047;font-weight:700'>meticulous</span> about her work.",
+          "    </div>",
+          "    <div id='div' class='rounded-full mb-10' style='width:320px;height:2px;background:#7c3aed;opacity:0;transform:scaleX(0);transform-origin:center'></div>",
+          "    <div id='ja' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
+          "      彼女は仕事に細心の注意を払う。",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "script": [
+          "const animation = new MulmoAnimation();",
+          "animation.animate('#en', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.15, end: 0.42, easing: 'easeOut' });",
+          "animation.animate('#div', { opacity: [0, 1], scaleX: [0, 1] }, { start: 0.42, end: 0.6, easing: 'easeOut' });",
+          "animation.animate('#ja', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.58, end: 0.82, easing: 'easeOut' });"
+        ],
+        "animation": true
+      }
+    },
+    {
+      "text": "He keeps meticulous records.",
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='relative w-full h-full overflow-hidden'>",
+          "  <img src='image:sample_2' class='absolute inset-0 w-full h-full object-cover'>",
+          "  <div class='absolute inset-0' style='background:linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0) 60%)'></div>",
+          "  <div class='absolute inset-0 flex flex-col items-center justify-end pb-20 px-16'>",
+          "    <div id='en' class='text-white text-5xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
+          "      He keeps <span style='color:#fde047;font-weight:700'>meticulous</span> records.",
+          "    </div>",
+          "    <div id='div' class='rounded-full mb-10' style='width:320px;height:2px;background:#7c3aed;opacity:0;transform:scaleX(0);transform-origin:center'></div>",
+          "    <div id='ja' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
+          "      彼は几帳面に記録をつける。",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "script": [
+          "const animation = new MulmoAnimation();",
+          "animation.animate('#en', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.15, end: 0.42, easing: 'easeOut' });",
+          "animation.animate('#div', { opacity: [0, 1], scaleX: [0, 1] }, { start: 0.42, end: 0.6, easing: 'easeOut' });",
+          "animation.animate('#ja', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.58, end: 0.82, easing: 'easeOut' });"
+        ],
+        "animation": true
+      }
+    },
+    {
+      "text": "The chef is meticulous in presentation.",
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='relative w-full h-full overflow-hidden'>",
+          "  <img src='image:sample_3' class='absolute inset-0 w-full h-full object-cover'>",
+          "  <div class='absolute inset-0' style='background:linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0) 60%)'></div>",
+          "  <div class='absolute inset-0 flex flex-col items-center justify-end pb-20 px-16'>",
+          "    <div id='en' class='text-white text-5xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
+          "      The chef is <span style='color:#fde047;font-weight:700'>meticulous</span> in presentation.",
+          "    </div>",
+          "    <div id='div' class='rounded-full mb-10' style='width:320px;height:2px;background:#7c3aed;opacity:0;transform:scaleX(0);transform-origin:center'></div>",
+          "    <div id='ja' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
+          "      そのシェフは盛り付けに非常にこだわる。",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "script": [
+          "const animation = new MulmoAnimation();",
+          "animation.animate('#en', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.15, end: 0.42, easing: 'easeOut' });",
+          "animation.animate('#div', { opacity: [0, 1], scaleX: [0, 1] }, { start: 0.42, end: 0.6, easing: 'easeOut' });",
+          "animation.animate('#ja', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.58, end: 0.82, easing: 'easeOut' });"
+        ],
+        "animation": true
+      }
+    }
+  ]
+}
