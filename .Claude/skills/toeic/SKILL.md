@@ -1,5 +1,5 @@
 ---
-name: script
+name: toeic
 description: Generates a MulmoCast JSON script for a given English vocabulary word. Use when the user wants to create a vocabulary learning video script.
 argument-hint: <word> [image style] OR word1, word2, word3 [image style]
 ---

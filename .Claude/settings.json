@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Write(scripts/**)",
+      "Bash(mulmo movie:*)"
+    ]
+  }
+}
