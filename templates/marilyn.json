@@ -19,6 +19,7 @@
   "imageParams": {
     "provider": "google",
     "model": "gemini-3.1-flash-image-preview",
+    "style": "Ghibli style",
     "images": {
       "marilyn": {
         "type": "image",
@@ -32,8 +33,8 @@
   "beats": [
     {
       "speaker": "Presenter",
-      "text": "Hello, I'm Marilyn.",
-      "imagePrompt": "She is standing in a bright studio, smiling and waving at the camera. She is wearing a stylish outfit.",
+      "text": "Hello, I'm Marilyn. I'm going to show you how to make a movie with MulmoCast",
+      "imagePrompt": "She is standing in a bright movie studio wearing a red sexy dress, smiling and waving at the camera.",
       "imageNames": ["marilyn"]
     }
   ]
