@@ -34,7 +34,7 @@
     {
       "speaker": "Presenter",
       "text": "Hello, I'm Marilyn. I'm going to show you how to make a movie with MulmoCast",
-      "imagePrompt": "She is standing in a bright movie studio wearing a red sexy dress, smiling and waving at the camera.",
+      "imagePrompt": "She is standing alone in a bright movie studio wearing a red sexy dress, smiling and waving at the camera.",
       "imageNames": ["marilyn"]
     }
   ]
