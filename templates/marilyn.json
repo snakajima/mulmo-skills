@@ -39,7 +39,8 @@
       "speaker": "Presenter",
       "text": "Hello, I'm Marilyn. I'm going to show you how to make a movie with MulmoCast",
       "imagePrompt": "She is standing alone in a bright movie studio wearing a red sexy dress, smiling and waving at the camera.",
-      "imageNames": ["marilyn"]
+      "imageNames": ["marilyn"],
+      "enableLipSync": true
     },
     {
       "speaker": "Presenter",
@@ -64,7 +65,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "Watch me take on three bad guys with my karate moves!",
+      "text": "Watch me take on a bad guy with my karate moves!",
       "duration": 8.0,
       "moviePrompt": "She performs powerful karate moves, fighting against one menacing bad guys in a dramatic showdown, delivering swift kicks and punches, her movements fast and precise, with dynamic action cinematography. No voice. No bgm. Just the sound effect.",
       "movieParams": {
