@@ -47,6 +47,20 @@
       "imagePrompt": "She is walking on a busy New York City street in the 1950s, wearing a stylish period outfit, surrounded by vintage cars and classic storefronts.",
       "imageNames": ["marilyn"],
       "moviePrompt": "She walks gracefully down a bustling 1950s New York City sidewalk, her dress flowing as she moves, vintage yellow taxis and pedestrians passing by in the background."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "And now, let me show you my tap dance!",
+      "duration": 8.0,
+      "moviePrompt": "She performs an energetic tap dance on a classic wooden stage, her feet rhythmically tapping, spotlight shining down on her, with a big smile on her face.",
+      "movieParams": {
+        "referenceImages": [
+          {
+            "imageName": "marilyn",
+            "referenceType": "ASSET"
+          }
+        ]
+      }
     }
   ]
 }
