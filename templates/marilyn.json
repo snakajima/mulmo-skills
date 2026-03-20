@@ -27,8 +27,18 @@
           "kind": "url",
           "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/main/characters/marilyn.png"
         }
+      },
+      "motor_cycle": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/main/items/motor_cycle.png"
+        }
       }
     }
+  },
+  "audioParams": {
+    "bgmVolume": 0
   },
   "movieParams": {
     "provider": "google",
@@ -72,6 +82,24 @@
         "referenceImages": [
           {
             "imageName": "marilyn",
+            "referenceType": "ASSET"
+          }
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Time to ride off into the sunset!",
+      "duration": 8.0,
+      "moviePrompt": "She hops onto a motorcycle parked on a sun-drenched Route 66 highway, the vast American desert stretching out ahead with red rock formations and a golden sky at dusk. She revs the engine, her hair catching the warm breeze, then accelerates and rides away into the distance until she disappears over the horizon. Ghibli style.",
+      "movieParams": {
+        "referenceImages": [
+          {
+            "imageName": "marilyn",
+            "referenceType": "ASSET"
+          },
+          {
+            "imageName": "motor_cycle",
             "referenceType": "ASSET"
           }
         ]
