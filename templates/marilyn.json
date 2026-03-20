@@ -61,6 +61,20 @@
           }
         ]
       }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Watch me take on three bad guys with my karate moves!",
+      "duration": 8.0,
+      "moviePrompt": "She performs powerful karate moves, fighting against one menacing bad guys in a dramatic showdown, delivering swift kicks and punches, her movements fast and precise, with dynamic action cinematography. No voice. No bgm. Just the sound effect.",
+      "movieParams": {
+        "referenceImages": [
+          {
+            "imageName": "marilyn",
+            "referenceType": "ASSET"
+          }
+        ]
+      }
     }
   ]
 }
