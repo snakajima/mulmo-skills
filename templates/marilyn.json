@@ -30,6 +30,10 @@
       }
     }
   },
+  "movieParams": {
+    "provider": "google",
+    "model": "veo-3.1-generate-preview"
+  },
   "beats": [
     {
       "speaker": "Presenter",
@@ -41,7 +45,8 @@
       "speaker": "Presenter",
       "text": "Here I am, walking through the streets of New York in the 1950s.",
       "imagePrompt": "She is walking on a busy New York City street in the 1950s, wearing a stylish period outfit, surrounded by vintage cars and classic storefronts.",
-      "imageNames": ["marilyn"]
+      "imageNames": ["marilyn"],
+      "moviePrompt": "She walks gracefully down a bustling 1950s New York City sidewalk, her dress flowing as she moves, vintage yellow taxis and pedestrians passing by in the background."
     }
   ]
 }
