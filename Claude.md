@@ -12,6 +12,14 @@ This is a **mulmo-skills** repository — a collection of Claude Code skills tha
 - `templates/` — reference JSON files that skills use as structural templates
 - `scripts/` — generated MulmoCast JSON output files (one per word/topic)
 
+## Tools
+
+When I ask you to update mulmocast, run "npm update -g mulmocast"
+
+The schema of MulmoScript is available at the following URL.
+
+https://raw.githubusercontent.com/receptron/mulmocast-cli/refs/heads/main/src/types/schema.ts
+
 ## Generating a Movie
 
 To render a script into a video:

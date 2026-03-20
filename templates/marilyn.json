@@ -1,0 +1,40 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "title": "Marilyn",
+  "lang": "en",
+  "canvasSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "provider": "openai",
+        "voiceId": "shimmer"
+      }
+    }
+  },
+  "imageParams": {
+    "provider": "google",
+    "model": "gemini-3.1-flash-image-preview",
+    "images": {
+      "marilyn": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/main/characters/marilyn.png"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "Hello, I'm Marilyn.",
+      "imagePrompt": "She is standing in a bright studio, smiling and waving at the camera. She is wearing a stylish outfit.",
+      "imageNames": ["marilyn"]
+    }
+  ]
+}
